@@ -130,6 +130,7 @@
     background-color: var(--background-color);
     height: 153px;
     width: 226px;
+    
   }
   
   .player-display-song-artist {
@@ -165,6 +166,8 @@
   
   .playlist li:not(:last-child) {
     border-bottom: 1px solid var(--background-color);
+    border-radius: 12px;
+    padding: auto;
   }
   
   button:focus,
